@@ -1,0 +1,42 @@
+/*
+a
+bb
+ccc
+dddd
+eeeee
+ffffff
+ggggggg
+hhhhhhhh
+iiiiiiiii
+jjjjjjjjjj
+kkkkkkkkkkk
+llllllllllll
+mmmmmmmmmmmmm
+nnnnnnnnnnnnnn
+ooooooooooooooo
+pppppppppppppppp
+qqqqqqqqqqqqqqqqq
+rrrrrrrrrrrrrrrrrr
+sssssssssssssssssss
+tttttttttttttttttttt
+uuuuuuuuuuuuuuuuuuuuu
+vvvvvvvvvvvvvvvvvvvvvv
+wwwwwwwwwwwwwwwwwwwwwww
+xxxxxxxxxxxxxxxxxxxxxxxx
+yyyyyyyyyyyyyyyyyyyyyyyyy
+zzzzzzzzzzzzzzzzzzzzzzzzzz
+
+*/
+#include<stdio.h>
+int main()
+{
+    int i,n,j;
+    for(i='a';i<='z';i++)
+    {
+    	for(j='a';j<=i;j++)
+    	{
+    		printf("%c",i);
+    	}
+    	printf("\n");
+    }
+}
